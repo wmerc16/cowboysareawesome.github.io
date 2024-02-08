@@ -1,0 +1,32 @@
+<!-- William Crouch 2/5/24 CS 125 - Lab 3-->
+<link rel="stylesheet" href="cowboysstylesheet.css">
+
+body {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 130%
+}
+
+header h2 {
+	font-size: 200%;
+	color: blue;
+	text-align: center;
+	text-shadow: 2px 2px 2px purple;
+}
+
+header p {
+	font-size: 100%
+	text-align: center;
+	color: green;
+}
+
+header h3 {
+	font-size: 130%;
+	color: red;
+	text-align: center;
+	text-shadow: 3px 3px 3px orange;
+}
+
+footer p {
+	font-size: 80%
+	text-align: center;
+}
