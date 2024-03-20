@@ -1,32 +1,180 @@
-<!-- William Crouch 2/5/24 CS 125 - Lab 3-->
+<!-- William Crouch 2/26/24 CS 125 - Lab 6-->
 <link rel="stylesheet" href="cowboysstylesheet.css">
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: tan;
+}
+
+/* the styles for the body */
 body {
 	font-family: "Courier New", Courier, monospace;
-	font-size: 130%
+	font-size: 100%;
+
+}
+#famous_cowboys {
+	float: right;
+}
+body h3 {
+	text-align:right;
+	font-size:130%;
+	color: black;
+	text-shadow: 3px 3px 3px #802600;
+}
+
+#famous {
+	float: right;
+}
+
+/* the styles for the form */
+fieldset {
+	width: 7em;
+	left: 50%;
+	border: 2px solid #802600;
+	float: left;
+}
+legend {
+	color: black;
+	font-weight: bold;
+	font-size: 130%;
+}
+#equipment{
+	width: 7em;
+	left: 50%;
+	transform: translate(-100%, 120%);
+	border: 2px solid #802600;
+}
+#buttons{
+	width: 5em;
+	transform: translate(-268%, 205%);
+	border: 2px solid #802600;
+}
+/*the styles for the header*/
+header img {
+	display: block;
+	margin: 0 31em 0;
+	transform: translate(3%, 0%);
 }
 
 header h2 {
-	font-size: 200%;
-	color: blue;
+	font-size: 210%;
+	color: black;
 	text-align: center;
-	text-shadow: 2px 2px 2px purple;
+	text-shadow: 2px 2px 2px #802600;
+	margin: 15px 500px 15px;
 }
 
 header p {
 	font-size: 100%
 	text-align: center;
-	color: green;
+	color: black;
+	margin: 0 190px 0;
 }
 
 header h3 {
 	font-size: 130%;
-	color: red;
+	color: black;
 	text-align: center;
-	text-shadow: 3px 3px 3px orange;
+	text-shadow: 3px 3px 3px #802600;
+	margin: 15px 500px 15px;
+	border: 2px dotted #802600;
+}
+
+/*the styles for the nav*/
+#nav_menu {
+	font-size:130%;
+}
+#nav_menu ul {
+	margins: 0;
+	padding: 0;	
+	list-style: none;
+	position: relative;
+	float: right;
+}
+#nav_menu ul li{
+	float: none;
+}
+#nav_menu a {
+	width: 160px;
+	display: block;
+	text-align: center;
+	padding: 1em 0 1em;
+	text-decoration: none;
+	background-color: #802600;
+	color: yellow;
+	font-weight: bold;
+	border: 1px solid black;
+}
+#nav_menu ul li a.current {
+	color: white;
+}
+/*the styles for section*/
+section h1 {
+	text-align: center;
+	text-shadow: 3px 3px 3px #802600;
+	margin: 45px 0 15px;
+}
+
+section h2 {
+	text-align: center;
+	font-size: 130%;
+	color: black;
+	text-shadow: 3px 3px 3px #802600;
+}
+section h3 {
+	margin: 0 5em 0;
+	font-size: 130%;
+}
+section h4 {
+	font-size:130%;
+	color: black;
+	text-shadow: 3px 3px 3px #802600;
+}
+
+section p {
+	outline: 1px solid #802600;
+	width: 700px;
+	margin: 15px 430px 15px;
+	padding: 3px;
+	text-align: center;
+}
+
+section h3 {
+	text-align:left;
+	font-size: 130%;
+	color:black;
+	text-shadow: 3px 3px 3px #802600;
+}
+#cowboy_equipment {
+	float: left;
+	transform: translate(0%, -7%);
+}
+section ul {
+	float: left;
+	
+}
+
+footer {
+	clear: both;
+	text-align:center;
+	margin: 10px 10px 10px 10px;
+}
+footer h3 {
+	text-align:center;
 }
 
 footer p {
-	font-size: 80%
+	font-size: 80%;
 	text-align: center;
+	padding: 1em 0;
+}
+footer img {
+	display: block;
+	width: 400px;
+	height: auto;
+	transform: translate(140%, -40%);
 }
